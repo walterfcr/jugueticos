@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Universidad Cenfotec</title>
+    <link rel="icon" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b6eafbf987.js" crossorigin="anonymous"></script> 
+  </head>
+  <body>
+    <header class="container-fluid">
+        <div class="headerIzq">
+        <img src="imagenes/logo.png" alt="" class="img-fluid">
+        </div>
+        <!--menu-->
+        <div class="headerDer">
+        <nav class="navbar navbar-expand-md navbar-dark pb-5">
+        
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item menucolor1">
+                    <div class="text-center animacion1">
+                        <i class="fa-solid fa-house-chimney fa-3x pt-3" style="color:#fff"></i>
+                    </div>
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item  menucolor2">
+                    <div class="text-center animacion1">
+                        <i class="fa-solid fa-users fa-3x pt-3" style="color:#fff"></i>
+                    </div>
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item menucolor3 dropdown">
+                    <div class="text-center animacion1">
+                        <i class="fa-regular fa-images fa-3x pt-3" style="color:#fff"></i>
+                    </div>
+                  <a class="nav-link dropdown-toggle navActive " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Catálogo
+                  </a>
+        
+                  <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="galeria-munecas.html">Muñecas</a></li>
+                    <li><a class="dropdown-item" href="galeria-munecos.html">Muñecos</a></li>
+                    <li><a class="dropdown-item" href="galeria-carros.html">Carros</a><li>   
+                    <li><a class="dropdown-item" href="galeria-peluches.html">Peluches</a></li>
+                    <li><a class="dropdown-item" href="galeria-didacticos.html">Didácticos</a></li>
+                    <li><a class="dropdown-item" href="galeria-deportivos.html">Deportivos</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item menucolor4">
+                    <div class="text-center animacion1">
+                        <i class="fa-solid fa-truck fa-3x pt-3" style="color:#fff"></i>
+                    </div>
+                  <a class="nav-link" href="distribuidor.html">Distribuidor</a>
+                </li>
+                <li class="nav-item menucolor5">
+                    <div class="text-center animacion1">
+                        <i class="fa-solid fa-envelope fa-3x pt-3" style="color:#fff"></i>
+                    </div>
+                    <a class="nav-link" href="contacto.html">Contáctenos</a>
+                </li>   
+              </ul>
+            </div>
+            </div>  
+        </nav>
+          <!--menu-->
+        </div>    
+    
+        </header>
+<main class="container pt-5 pb-5">
+    <div class="titulo">
+    <h1 class="text-center">Buzz Lightyear de peluche</h1>
+    <div class="pt-3 pb-3"><hr></div>
+    <p>Buzz Lightyear en su clásico traje de espacio verde y blanco con alas arrugadas mide 8 pulgadas de alto y es ultra suave y lavable. lindo y encantadoramente detallado. A los niños les encanta este amigo cómodo clásico y coleccionable.</p>
+    </div>
+<div class="row pt-5">
+    <div class="col-lg-6 text-center">
+        <div id="juguete1" style="display:block">
+            <img src="imagenes/peluches/item8/item8-1.webp" alt="Oso peluche" class="img-fluid">
+        </div>
+        <div id="juguete2" style="display:none">
+            <img src="imagenes/peluches/item8/item8-2.webp" alt="Oso peluche" class="img-fluid">
+        </div>
+        <div id="juguete3" style="display:none">
+            <img src="imagenes/peluches/item8/item8-3.webp" alt="Oso peluche" class="img-fluid">
+        </div>
+        <div id="juguete4" style="display:none">
+            <img src="imagenes/peluches/item8/item8-4.webp" alt="Oso peluche" class="img-fluid">
+        </div>
+        <div class="botones pt-5 pb-5 text-center">
+            <button onclick="juguete1()" class="me-3 ms-3">  <img src="imagenes/peluches/item8/item8-1.webp" alt="Oso peluche" class="img-fluid"></button>
+            <button onclick="juguete2()" class="me-3 ms-3">  <img src="imagenes/peluches/item8/item8-2.webp" alt="Oso peluche" class="img-fluid"></button>
+            <button onclick="juguete3()" class="me-3 ms-3">  <img src="imagenes/peluches/item8/item8-3.webp" alt="Oso peluche" class="img-fluid"></button>
+            <button onclick="juguete4()" class="me-3 ms-3">  <img src="imagenes/peluches/item8/item8-4.webp" alt="Oso peluche" class="img-fluid"></button>
+        </div>        
+    </div>
+    <div class="col-lg-6 detalles-texto">
+        <ul class="list-group ">
+         <li class="list-group-item active bg-success text-center" style="border-color:green"><strong>Detalles del Juguete</strong></li>
+         <li class="list-group-item" style="border-color:#979292;"><strong>Código: </strong>PLC126</li>
+         <li class="list-group-item" style="border-color:#979292;"><strong>Dimensiones: </strong>2.2 x 5 x 8"</li>
+         <li class="list-group-item" style="border-color:#979292;"><strong>Peso: </strong>2.39 oz</li>
+         <li class="list-group-item" style="border-color:#979292;"><strong>País de origen: </strong>China</li>
+         <li class="list-group-item" style="border-color:#979292;"><strong>Edad recomendada: </strong>3 años +</li>
+         <li class="list-group-item" style="border-color:#979292;"><strong>Fabricante: </strong>Disney</li>
+        </ul> 
+        <ul class="list-group text-center">
+            <li class="list-group-item active bg-success" style="border-color:green" ><strong>Precio</strong></li>
+            <li class="list-group-item precio" style="border-color:#979292;">¢7.000</li>
+        </ul>    
+        <div class="text-center">
+            <a href="galeria-peluches.html" class="btn btn-danger btn-md ms-3" role="button" aria-pressed="true"><i class="fa-solid fa-angle-left"></i> Volver</a>     
+        </div>   
+    </div>
+
+</div>
+</main>    
+<div class="">
+  <a href="https://walink.co/0a072f" class="whatsapp" target="blank"> 
+  <i class="fab fa-whatsapp wow bounceIn" data-wow-delay="0.5s" style="color:white"></i>
+</a>
+</div>
+<footer>
+<div class="row">
+<div class="col-lg-4 pie1 pt-3 pb-3 py-5 px-5">
+  <ul>
+    <li><a class="" href="galeria-munecas.html">Catálogo de Muñecas</a></li>
+    <li><a class="" href="galeria-munecos.html">Catálogo de Muñecos</a></li>
+    <li><a class="" href="galeria-carros.html">Catálogo de Carros</a></li>
+    <li><a class="" href="galeria-peluches.html">Catálogo de Peluches</a></li>
+    <li><a class="" href="galeria-didacticos.html">Catálogo de Juguetes Didácticos</a></li>
+    <li><a class="" href="galeria-deportivos.html">Catálogo de Juguetes Deportivos</a></li>
+  </ul>
+</div>
+<div class="col-lg-4 pie2 social">
+  <h4 class="text-center pt-3 pb-3">Síguenos en:</h4>
+  <ul class="text-center"> 
+    <li><a href="https://www.facebook.com/" target="blank"><i class="fa-brands fa-facebook fa-4x" style="color:#fff"></i></a></li>
+    <li><a href="https://www.instagram.com/" target="blank"><i class="fa-brands fa-instagram fa-4x " style="color:#fff"></i></a></li>
+    <li><a href="https://www.youtube.com/" target="blank"><i class="fa-brands fa-youtube fa-4x " style="color:#fff"></i></a></li>
+  </ul>
+  <div class="text-center pt-3">
+  <p>Juguetería y Distribuidora Jugueticos 2023</p>
+  </div>
+</div>
+<div class="col-lg-4 pie3 pt-3 pb-3 py-5 px-5">
+  <ul>
+    <li><a class="" href="index.html">Inicio</a></li>
+    <li><a class="" href="nosotros.html">Nosotros</a></li>
+    <li><a class="" href="distribuidor.html">Distribuidor</a></li>
+    <li><a class="" href="contacto.html">Contáctenos</a></li>
+  </ul>
+</div>
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({
+  xfbml            : true,
+  version          : 'v7.0'
+});
+};
+
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat"
+attribution=setup_tool
+page_id="210902686028812"
+theme_color="#67b868"
+logged_in_greeting="En que le podemos ayudar?"
+logged_out_greeting="En que le podemos ayudar?">
+</div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="js/juguetes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </body>
+</html> 
