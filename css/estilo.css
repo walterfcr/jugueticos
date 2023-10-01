@@ -199,46 +199,6 @@ div.animacion1:hover i {
     font-size: 3.5rem;
 }
 
-.doll{
-    clip-path:url(#dollshape);
-    -webkit-clip-path:url(#dollshape);
-}
-
-.action{
-    clip-path:url(#actionshape);
-    -webkit-clip-path:url(#actionshape);
-}
-
-.actionx{
-    clip-path:url(#actionshapex);
-    -webkit-clip-path:url(#actionshapex);
-}
-
-.bear{
-    clip-path:url(#bearshape);
-    -webkit-clip-path:url(#bearshape);
-}
-
-.puzzle{
-    clip-path:url(#puzzleshape);
-    -webkit-clip-path:url(#puzzleshape);
-}
-
-.carros{
-    clip-path:url(#carrosshape);
-    -webkit-clip-path:url(#carrosshape);
-}
-
-.carrosx{
-    clip-path:url(#carrosshapex);
-    -webkit-clip-path:url(#carrosshapex);
-}
-
-.deporte{
-    clip-path:url(#deporteshape);
-    -webkit-clip-path:url(#deporteshape);
-}
-
 .acomodar1{
     display:block;
 }
