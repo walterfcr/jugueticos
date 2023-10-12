@@ -209,7 +209,7 @@ div.animacion1:hover i {
 
 
 .columna1{
-   background-image:url('../imagenes/color4.jpg');
+   background-image:url('../imagenes/color4.webp');
     background-size:cover;
     background-position-y:center;
     height:550px;
@@ -220,7 +220,7 @@ div.animacion1:hover i {
  }
 
  .columna2{
-    background-image:url('../imagenes/color1.jpg');
+    background-image:url('../imagenes/color1.webp');
      background-size:cover;
      background-position-y:center;
      height:550px;
@@ -235,7 +235,7 @@ div.animacion1:hover i {
 }
 
   .columna3{
-    background-image:url('../imagenes/color2.jpg');
+    background-image:url('../imagenes/color2.webp');
      background-size:cover;
      background-position-y:center;
      height:550px;
@@ -246,7 +246,7 @@ div.animacion1:hover i {
 }  
 
 .columna4{
-    background-image:url('../imagenes/color3.jpg');
+    background-image:url('../imagenes/color3.webp');
      background-size:cover;
      background-position-y:center;
      height:550px;
