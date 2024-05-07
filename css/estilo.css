@@ -564,9 +564,13 @@ footer li{
         width:70%;
     }
 
+    .navbar ul li{
+		width:100%;
+	}
+
 }
 
-@media (max-width: 768px){
+@media (max-width: 800px){
     .titulo p{
         width:100%;
     }
@@ -588,7 +592,7 @@ footer li{
     }
 
     .navbar{
-        margin:0 0 0 200px !important;
+        margin:0 !important;
         float:none !important;
 
     }
@@ -757,6 +761,7 @@ footer li{
     }
 
 }
+
 
 @media (max-width: 1200px){
     .tz-gallery p{
