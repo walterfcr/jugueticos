@@ -560,7 +560,7 @@ footer li{
         font-size: 1.5rem !important;
     }
 
-        .contactoWrap{
+    .contactoWrap{
         width:70%;
     }
 
@@ -570,7 +570,7 @@ footer li{
 
 }
 
-@media (max-width: 800px){
+@media  (max-width: 800px){
     .titulo p{
         width:100%;
     }
@@ -664,20 +664,21 @@ footer li{
 
     .acomodar2{
         display:block;
+
     }
 
     .columna1{
         background-image:none;
-         height:750px;
+        height:auto;
      }
 
 
     .columna1 p{
-        padding:0 50px !important;
+        padding:0 !important;
     }
 
     .col1{
-        padding:0 0 5px 0 !important;
+        padding:0 !important;
     }
 
     .columna1 h2{
@@ -687,7 +688,7 @@ footer li{
 
     .columna2{
         background-image:none;
-         height:750px;
+        height:auto;
      }
     
     .columna2 h2{
@@ -696,17 +697,17 @@ footer li{
     }
 
     .columna2 p{
-        padding:0 20px !important;
+        padding:0 !important;
     }
 
     .col2{
-        padding:0 0 5px 0 !important;
+        padding: 0 !important;
     }
 
 
      .columna3{
         background-image:none;
-         height:750px;
+         height:auto;
      }
 
      .columna3 h2{
@@ -715,16 +716,16 @@ footer li{
     }
 
     .columna3 p{
-        padding:0 50px !important;
+        padding:0 !important;
     }
 
     .col3{
-        padding:0 0 5px 0 !important;
+        padding:0 !important;
     }
 
     .columna4{
         background-image:none;
-         height:750px;
+         height:auto;
      }
 
      .columna4 h2{
@@ -732,11 +733,11 @@ footer li{
     }
 
     .columna4 p{
-        padding:0 20px !important;
+        padding:0!important;
     }
 
     .col4{
-        padding:0 0 5px 0 !important;
+        padding:0 !important;
     }
 
 
