@@ -11,6 +11,12 @@ body{
     overflow-x: hidden;
 }
 
+main{
+    max-width: 1440px;
+    margin:0 auto;
+    display:block;
+}
+
 h1,
 h2,
 h3,
@@ -32,7 +38,7 @@ a {
 
 header{
     height:150px;
-
+    max-width: 1440px;
 }
 
 header img{
@@ -356,6 +362,12 @@ div.animacion1:hover i {
     background-color: hsl(0, 12%, 90%);
 }
 
+.wrapTarjeta{
+    max-width: 1440px;
+    margin:0 auto;
+    display: block;
+}
+
 .card{
     width: 90% !important;
     margin: 0 auto;
@@ -496,7 +508,11 @@ div.dollar {
 
 footer{
     color:#fff;
+    margin:0 auto;
+    display:block;
 }
+
+
 
 footer a{
     color:#fff;
@@ -847,4 +863,20 @@ footer li{
         font-size: 0.8rem !important;
     }
 
+}
+
+@media (min-width: 1441px){
+    footer{
+        background-color: #1a419e !important;
+        padding:0 20% !important;
+    }
+    .pie1{
+        background-color: #1a419e !important;
+    }
+    .pie2{
+        background-color: #1a419e !important;
+    }
+    .pie3{
+        background-color: #1a419e !important;
+    }
 }
