@@ -555,7 +555,7 @@ footer li{
 }
 
 
-@media (max-width: 576px){
+@media (max-width: 600px){
     .tz-gallery p{
         font-size: 1.5rem !important;
     }
