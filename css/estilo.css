@@ -576,7 +576,7 @@ footer li{
 
 
     .columna1 p{
-        padding:0 5% !important;
+        padding:0 10% !important;
     }
 
     .col1{
@@ -599,7 +599,7 @@ footer li{
     }
 
     .columna2 p{
-        padding:0 5% !important;
+        padding:0 10% !important;
     }
 
     .col2{
@@ -618,7 +618,7 @@ footer li{
     }
 
     .columna3 p{
-        padding:0 5% !important;
+        padding:0 10% !important;
     }
 
     .col3{
@@ -635,7 +635,7 @@ footer li{
     }
 
     .columna4 p{
-        padding:0 5% !important;
+        padding:0 10% !important;
     }
 
     .col4{
@@ -719,6 +719,7 @@ footer li{
     .col4{
         padding:0 !important;
     }
+
 }
 
 @media (max-width: 800px){
