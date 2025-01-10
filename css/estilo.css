@@ -12,7 +12,7 @@ body{
 }
 
 main{
-    max-width: 1440px;
+    max-width: 1940px;
     margin:0 auto;
     display:block;
 }
@@ -38,7 +38,7 @@ a {
 
 header{
     height:150px;
-    max-width: 1440px;
+    max-width: 1840px;
 }
 
 header img{
@@ -219,9 +219,7 @@ div.animacion1:hover i {
 
 
 .columna1{
-   background-image:url('../imagenes/color4.webp');
-    background-size:cover;
-    background-position-y:center;
+    max-width: 1600px;
     height:550px;
 }
 
@@ -230,10 +228,9 @@ div.animacion1:hover i {
  }
 
  .columna2{
-    background-image:url('../imagenes/color1.webp');
-     background-size:cover;
-     background-position-y:center;
+     max-width: 1600px;
      height:550px;
+     margin:0 auto;
  }
  
  .columna2 h2{
@@ -245,9 +242,7 @@ div.animacion1:hover i {
 }
 
   .columna3{
-    background-image:url('../imagenes/color2.webp');
-     background-size:cover;
-     background-position-y:center;
+     max-width: 1600px;
      height:550px;
  }
  
@@ -256,10 +251,9 @@ div.animacion1:hover i {
 }  
 
 .columna4{
-    background-image:url('../imagenes/color3.webp');
-     background-size:cover;
-     background-position-y:center;
+     max-width: 1600px;
      height:550px;
+     margin:0 auto;
  }
  
  .columna4 h2{
